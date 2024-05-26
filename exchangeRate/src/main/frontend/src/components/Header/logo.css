@@ -1,0 +1,13 @@
+.logo {
+    line-height: 1;
+    margin: auto;
+    padding: 20px;
+}
+
+.logo span {
+    font-style: italic;
+    font-size: 26px;
+    font-weight: 700;
+    color: #012970;
+    font-family: 'Nunito', sans-serif;
+}

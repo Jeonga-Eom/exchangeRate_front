@@ -1,0 +1,10 @@
+.pagetitile {
+    margin-bottom: 10px;
+}
+
+.pagetitile h1 {
+    front-size: 24px;
+    margin-bottom: 0;
+    font-weight: 600;
+    color: #012970;
+}

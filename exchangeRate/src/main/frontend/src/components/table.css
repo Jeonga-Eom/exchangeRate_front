@@ -1,0 +1,29 @@
+/* Table.css */
+.table-container {
+    width: 100%; /* 테이블 컨테이너의 너비를 설정 */
+    margin: 0 auto; /* 가운데 정렬 */
+}
+
+@media (min-width: 1199px) {
+    .table-container {
+        padding: 20px 30px;
+        transition: all 0.3s;
+        width: 100%; /* 테이블 컨테이너의 너비를 설정 */
+        margin: 0 auto; /* 가운데 정렬 */
+    }
+}
+
+table {
+    width: 100%; /* 테이블 너비를 100%로 설정 */
+    border-collapse: collapse; /* 셀 경계를 합치기 */
+}
+
+th, td, tbody {
+    border: 1px solid #ddd; /* 셀 경계를 실선으로 설정 */
+    padding: 8px; /* 셀 안의 여백 설정 */
+    text-align: center; /* 셀 안의 텍스트를 가운데 정렬 */
+}
+
+th {
+    background-color: #f2f2f2; /* 헤더 배경색 설정 */
+}

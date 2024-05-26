@@ -1,0 +1,2 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Roboto:wght@100;300;400;500;700;900;&display=swap);:root{--primary:#4154f1;--second:#717ff5;--bgColor:#f6f9ff;scroll-behavior:smooth}body{background:#f6f9ff;background:var(--bgColor);color:#444;font-family:Open Sans,sans-serif}a{color:#4154f1;color:var(--primary);cursor:pointer}a,a:hover{text-decoration:none}a:hover{color:#717ff5;color:var(--second)}h1,h2,h3,h4,h5,h6{font-family:Nunito,sans-serif}
+/*# sourceMappingURL=main.08978b64.css.map*/

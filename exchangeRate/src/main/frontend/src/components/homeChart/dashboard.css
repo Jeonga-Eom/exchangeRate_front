@@ -1,0 +1,15 @@
+.dashboard-container {
+    height: 450px;
+    width: 100%; /* 테이블 컨테이너의 너비를 설정 */
+    margin: 0 auto; /* 가운데 정렬 */
+}
+
+@media (min-width: 1199px) {
+    .dashboard-container {
+        padding: 20px 30px;
+        transition: all 0.3s;
+        height: 450px;
+        width: 100%; /* 테이블 컨테이너의 너비를 설정 */
+        margin: 0 auto; /* 가운데 정렬 */
+    }
+}

@@ -1,0 +1,126 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    /*color: rgb(204, 204, 204);*/
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 9vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    transition: all 0.5s;
+    color: #012970;
+    /*!*box-shadow: 1px 1px 5px rgba(100, 100, 100, 0.2);*/
+    background-color: #f6f9ff;
+    padding: 15px 10px 10px 10px;
+}
+
+.nav-logo {
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    font-size: 26px;
+    font-weight: 700;
+    color: #012970;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+.nav-link{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 555;
+    color: #012970;
+}
+
+.nav-contact{
+    border-radius: 50px;
+    padding: 10px 30px;
+    background: #012970;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 555;
+}
+
+.nav-contact:hover {
+    color: #c1e3ff;
+    text-decoration: none;
+}
+
+.nav-toggler {
+    display: none;
+}
+.nav-toggler div {
+    width: 2.5rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background: #012970;
+    transition: 0.3s ease-in;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-toggler {
+        display: block;
+        cursor: pointer;
+    }
+    .nav-menu {
+        position: fixed;
+        top: 7vh;
+        right: 0;
+        height: 93vh;
+        width: 50vw;
+        background: #012970;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
+        z-index: 100;
+    }
+
+    .nav-link{
+        color: #fff;
+    }
+}
+/* Active Class */
+.nav-active {
+    transform: translateX(0%);
+}
+
+/* Toggle Icon Animation */
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-4px, 5px);
+}
+.toggle .line2 {
+    opacity: 0;
+}
+.toggle .line3 {
+    transform: rotate(45deg) translate(-4px, -5px);
+}
+.toggle .line3 {
+    transform: rotate(45deg) translate(-4px, -5px);
+}
